@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Ange1D",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
 }
