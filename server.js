@@ -20,4 +20,8 @@ app.get('/explorers', async (req, res) => {
     res.json(allExplorers);
   });
 
-  
+  app.get('/explorers/:id', async (req, res) => {
+    const id = req.params.id;
+    const explorer = await prisma.explorer.findUnique({where: {id: parseInt(id)}});
+    res.json(explorer);
+  });
