@@ -1,0 +1,12 @@
+{
+  "name": "api-express-db",
+  "version": "1.0.0",
+  "description": "Conexión a Base de Datos Postgresql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ange1D",
+  "license": "ISC"
+}
